@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkslateblue;
+    color: white;
+}
+
+body {
+    padding: 2em;
+}
+
+body > h1 {
+    text-align: center;
+    font-size: 56px;
+}
+
+.search-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 32pt;
+}
+
+#search {
+    width: 256pt;
+    height: 100%;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    gap: 15px;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+}
+
+.card {
+    display: inline-block;
+    height: 100px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    box-shadow: black 0 0 10px;
+    transition: 400ms ease;
+    align-content: center;
+    text-decoration: none;
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 24pt;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
