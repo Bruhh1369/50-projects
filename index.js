@@ -9,8 +9,8 @@ let projects = [
 document.getElementById("grid").innerHTML = projects.map(itm => {
     return `
         <a class="card" id="cards" href=${itm.link}>
-        <h2>${itm.title}</h2>
-        <iframe src="${itm.link || itm.deployedLink}"</iframe>
+            <h2>${itm.title}</h2>
+            <iframe src="${itm.link || itm.deployedLink}"</iframe>
         </a>
     `
 }).join("")
