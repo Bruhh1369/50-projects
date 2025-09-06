@@ -3,6 +3,11 @@ let projects = [
         title: "Expanding Cards",
         link: "expanding-cards/main.html",
         deployedLink: "https://50-projects-pi.vercel.app/expanding-cards/main.html"
+    },
+    {
+        title: "Expanding Cards",
+        link: "calculator/main.html",
+        deployedLink: "https://50-projects-pi.vercel.app/calculator/main.html"
     }
 ]
 
