@@ -5,9 +5,14 @@ let projects = [
         deployedLink: "https://50-projects-pi.vercel.app/expanding-cards/main.html"
     },
     {
-        title: "Expanding Cards",
-        link: "calculator/main.html",
-        deployedLink: "https://50-projects-pi.vercel.app/calculator/main.html"
+        title: "",
+        link: "",
+        deployedLink: ""
+    },
+    {
+        title: "Progress Steps",
+        link: "progress-steps/main.html",
+        deployedLink: "https://50-projects-pi.vercel.app/progress-steps/main.html"
     }
 ]
 
