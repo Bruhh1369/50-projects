@@ -13,6 +13,16 @@ let projects = [
         title: "Progress Steps",
         link: "progress-steps/main.html",
         deployedLink: "https://50-projects-pi.vercel.app/progress-steps/main.html"
+    },
+    {
+        title: "",
+        link: "",
+        deployedLink: ""
+    },
+    {
+        title: "Rotating Navigation",
+        link: "rotating-navigation/main.html",
+        deployedLink: "https://50-projects-pi.vercel.app/rotating-navigation/main.html"
     }
 ]
 
